@@ -2,6 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 
 import { rhythm, scale } from "../utils/typography"
+import Bio from "./bio";
 
 class Layout extends React.Component {
   render() {
@@ -22,7 +23,10 @@ class Layout extends React.Component {
             style={{
               boxShadow: `none`,
               textDecoration: `none`,
-              color: `inherit`,
+              color: `#FFFFFF`,
+              fontFamily: `Didact Gothic`,
+              fontWeight: `50`,
+              letterSpacing: `.25em`
             }}
             to={`/`}
           >
@@ -63,9 +67,7 @@ class Layout extends React.Component {
         <header>{header}</header>
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <Bio />
         </footer>
       </div>
     )

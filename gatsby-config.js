@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
-    author: `Kyle Mathews`,
+    title: `608s & STACK TRACE`,
+    author: `Tanner Engbretson`,
     description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    siteUrl: `https://blog.engbretson.us/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `tengbretson`,
     },
   },
   plugins: [
